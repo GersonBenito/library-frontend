@@ -1,0 +1,39 @@
+
+@import url('./colors.css');;
+
+.container-login{
+    background: var(--dark-gray);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--info), var(--dark-gray));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--info), var(--dark-gray)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    letter-spacing: 1px;
+}
+
+.text p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    margin-top: 10px;
+}
+
+input{
+    border: 1px solid var(--gray);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login{
+    margin-top: 30px;
+}
+
+.container-button{
+    margin-top: 10px;
+}

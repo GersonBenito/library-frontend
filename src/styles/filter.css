@@ -1,0 +1,7 @@
+@import url('./colors.css');
+
+.select-filter select{
+    border: 1px solid var(--gray);
+    padding: 10px;
+    border-radius: 4px;
+}

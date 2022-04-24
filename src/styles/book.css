@@ -1,0 +1,75 @@
+
+@import url('./colors.css');
+
+.filters{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+}
+
+.container-cards {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    padding: 10px;
+}
+
+
+.card{
+    background: var(--slate);
+}
+
+.body-card{
+    padding: 10px;
+}
+
+.titulo-card{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.titulo-card span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detalles{
+    display: flex;
+    margin: 5px 0px;
+    justify-content: space-between;
+}
+
+.subtitulo {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.subtitulo span{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.title h2{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.container-boton button{
+    width: 100%;
+    border: none;
+    background: var(--info);
+    color: var(--slate);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
